@@ -1,0 +1,322 @@
+[10-Aug-2022 08:39:19 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.2.34. in /home/poapcpdd/public_html/web3/web3/vendor/composer/platform_check.php on line 24
+[10-Aug-2022 08:39:59 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.2.34. in /home/poapcpdd/public_html/web3/web3/vendor/composer/platform_check.php on line 24
+[10-Aug-2022 08:40:21 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.2.34. in /home/poapcpdd/public_html/web3/web3/vendor/composer/platform_check.php on line 24
+[10-Aug-2022 08:41:31 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 08:49:12 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1000 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(487): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[10-Aug-2022 09:40:40 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1000 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(478): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[10-Aug-2022 09:47:16 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1000 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(487): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[10-Aug-2022 10:25:40 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1000 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(487): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[10-Aug-2022 10:25:50 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:26:34 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:26:44 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:27:58 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:29:07 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:29:43 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:30:09 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:31:03 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:31:40 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:32:35 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:33:00 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:33:27 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:33:28 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:33:33 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:37:19 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:37:57 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:42:31 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:43:24 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:43:29 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:43:43 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:43:45 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:29 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:33 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:34 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:35 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:38 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:41 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:47 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:54 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:44:56 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:45:03 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:45:10 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:47:57 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:48:54 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:48:56 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:32 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:34 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:35 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:36 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:39 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:40 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:49 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:50:55 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:54:42 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:54:46 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:54:49 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:54:50 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:54:53 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:55:57 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:56:46 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:56:50 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:56:51 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:56:52 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:56:55 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:56:56 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:56:57 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:57:00 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 10:57:45 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 14:50:47 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 14:51:01 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:05:54 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:06:27 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:06:44 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:06:46 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:06:47 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:21:11 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1001 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(487): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[10-Aug-2022 15:21:59 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:25:51 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:30:35 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:31:35 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:31:37 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:31:39 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:31:41 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:31:42 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 15:33:34 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[10-Aug-2022 16:00:37 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1001 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(478): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[10-Aug-2022 16:00:40 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1001 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(478): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[10-Aug-2022 16:00:46 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[12-Aug-2022 13:38:05 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 07:15:03 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 09:51:03 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 09:51:05 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 09:51:06 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 09:51:08 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 09:51:19 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 09:51:20 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[16-Aug-2022 09:52:41 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[26-Aug-2022 09:35:29 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[26-Aug-2022 12:27:19 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1000 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(487): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[26-Aug-2022 13:09:11 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[28-Aug-2022 10:58:14 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[28-Aug-2022 11:23:59 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[28-Aug-2022 11:41:24 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[28-Aug-2022 12:25:47 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[28-Aug-2022 12:35:00 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[28-Aug-2022 12:40:39 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[28-Aug-2022 14:24:16 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[29-Aug-2022 03:17:09 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[29-Aug-2022 03:26:56 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[05-Sep-2022 10:16:19 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[05-Sep-2022 13:27:52 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[07-Sep-2022 10:37:42 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[07-Sep-2022 10:55:38 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[08-Sep-2022 09:35:25 America/New_York] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 1000 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rpc.ankr.com/gnosis in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(331): GuzzleHttp\HandlerStack->__invoke()
+#11 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(168): GuzzleHttp\Client->transfer()
+#12 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Client.php(187): GuzzleHttp\Client->requestAsync()
+#13 /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/RequestManagers/HttpRequestManager.php(65): GuzzleHttp\Client->post()
+#15 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Providers/HttpProvider.php(62): Web3\RequestManagers\HttpRequestManager->sendPayload()
+#16 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Eth.php(105): Web3\Providers\HttpProvider->send()
+#17 /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php(668): Web3\Eth->__call()
+#18 /home/poapcpdd/public_html/web3/collected.php(478): Web3\Contract->call()
+#19 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[08-Sep-2022 11:15:34 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[08-Sep-2022 11:18:59 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[15-Sep-2022 14:35:00 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[01-Dec-2022 06:52:33 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[19-Dec-2022 04:23:19 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[07-Jan-2023 17:40:39 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[11-Jan-2023 11:18:41 America/New_York] PHP Warning:  Undefined variable $poaps in /home/poapcpdd/public_html/web3/collected.php on line 490
+[23-Apr-2023 13:05:53 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: Please make sure you have put all function params and callback. in /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php:626
+Stack trace:
+#0 /home/poapcpdd/public_html/web3/collected.php(478): Web3\Contract->call()
+#1 {main}
+  thrown in /home/poapcpdd/public_html/web3/web3/vendor/web3p/web3.php/src/Contract.php on line 626
